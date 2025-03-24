@@ -9,60 +9,117 @@ Explore the interactive version with filters for:
 - Aircraft types
 - Countries
 
+## Table of Contents
+1. [Dashboard Access](#-british-airways-customer-reviews-analysis)  
+2. [Project Overview](#-overview)  
+3. [Data Exploration](#-exploring-the-data)  
+4. [Dashboard Features](#-interactive-dashboard-features)  
+5. [Final Dashboard](#interactive-dashboard-experience)  
+6. [Key Findings](#-key-findings-for-stakeholders)  
+7. [Recommendations](#-recommended-actions)
+
 ## 📌 Overview  
 In this project, I analyzed **7 years of British Airways customer reviews (2016–2023)** to uncover trends in passenger satisfaction. Using Tableau, I built an **interactive dashboard** that highlights strengths, pain points, and opportunities for improvement—helping airline leaders make data-driven decisions.  
 
-<!-- ![British Airways Dashboard](link-to-screenshot.png) -->
+## 🔍 Exploring the Data
 
-## 🔍 Project Goals  
-✅ Identify key drivers of customer satisfaction/dissatisfaction  
-✅ Compare ratings across metrics like *cabin service, food, entertainment, and value for money*  
-✅ Visualize trends by **country, aircraft type, and time** (e.g., COVID-19 impact)  
-✅ Provide actionable insights for British Airways to enhance the passenger experience  
+First, I dove into the customer reviews to understand what story the data could tell. Each row represented a unique traveler's experience, with detailed ratings across key flight aspects:
 
-## 📂 Data & Methodology  
-### Datasets Used  
-- **`ba_reviews.csv`**: Customer reviews with ratings (1-10 overall, 1-5 per metric)  
-- **`Countries.csv`**: Mapping table for country codes/regions  
+**Flight Experience Metrics** (rated 1-5):
+- Cabin staff service
+- Food & beverages  
+- Entertainment
+- Seat comfort
+- Value for money
 
 
-### Key Steps  
-1. **Explored Data**: Analyzed ratings distribution across metrics  
-2. **Created Interactive Filters**:  
-   - *"Pick a Metric"* parameter to toggle between rating categories  
-   - Filters for *year, country, and aircraft type*  
-3. **Built Visualizations**:  
-   - Time trends (monthly/yearly averages)  
-   - Geographical heatmap (scores by country)  
-   - Aircraft comparison (ratings + review volume)  
+### 🔗 Connecting the Data
+To enable geographic insights, I joined the review data with country information in Tableau by matching the `Place` and `Country` fields. This created a powerful foundation for location-based analysis.
 
-<!-- SCREENSHOT PLACEHOLDER 2: Add visualization examples here -->
-<!-- ![Dashboard Components](link-to-screenshot.png) -->
-
-## 📊 Dashboard Features  
+![Image](https://github.com/user-attachments/assets/857f5cd6-b119-49f5-b5d9-0df8d3a472ab)
 
 
-### Key Insights  
-1. **Rating Trends Over Time**  
-   - Post-2020 decline in scores (likely due to COVID-19 disruptions)  
-   - Seasonal spikes (e.g., summer travel highs)  
+### Dynamic Metric Selection
+I created an interactive "Pick a Metric" parameter that lets users toggle between different rating categories, with the dashboard automatically updating all visualizations to reflect the selected metric.
 
-2. **Weakest Performance Areas**  
-   - Food & Beverages, Entertainment, and Value for Money consistently scored lowest  
+![Image](https://github.com/user-attachments/assets/0905b56e-9bf4-435a-854a-e5ab14e96223)
 
-3. **Top-Performing Factors**  
-   - Cabin Staff Service and Seat Comfort rated highest  
+### Aircraft Grouping
 
-4. **Global Insights**  
-   - Countries with the most reviews (UK, US, India)  
-   - Regional satisfaction disparities  
+I focused on aircraft with **50+ reviews** to ensure reliable results. Less common planes were grouped together as "Various" to keep the data clear and meaningful.
 
-<!-- SCREENSHOT PLACEHOLDER 3: Add key insight visualizations here -->
-<!-- ![Key Insights](link-to-screenshot.png) -->
+![Image](https://github.com/user-attachments/assets/ca56212e-fb55-4a37-ba99-d7d4870f7963)
 
-## 🚀 Key Takeaways for British Airways  
-✔ **Upgrade In-Flight Entertainment & Food**: Critical pain points for passengers  
-✔ **Monitor Post-Pandemic Recovery**: Ratings dipped during COVID-19—ensure rebound  
-✔ **Focus on High-Volume Routes/Aircraft**: Prioritize improvements for frequently reviewed flights  
+## 📊 Interactive Dashboard Features
 
-## 🛠️ Repository Structure  
+The dashboard dynamically updates all visualizations when users select different metrics from the "Pick a Metric" filter. For example, choosing "Food & Beverages" will update every chart to show relevant data for that category.
+
+### Key Visualizations:
+
+1. **Monthly Trends**  
+Track how ratings change over time
+
+![Image](https://github.com/user-attachments/assets/650000e3-a3ec-4dbd-982a-f0dc9a3edb56)
+
+2. **Global Performance Map**  
+See which countries give the highest/lowest ratings
+ 
+![Image](https://github.com/user-attachments/assets/6d86a768-cf0a-4fc6-83e7-499d4d4dd48b)
+
+3. **Aircraft Comparison**  
+Compare average ratings vs. number of reviews by plane type
+ 
+![Image](https://github.com/user-attachments/assets/5e652575-6ac9-4511-ae03-65ed8876cfc1)
+
+4. **Performance Summary**  
+Quick-glance metrics showing overall averages
+  
+![Image](https://github.com/user-attachments/assets/acb0d4f0-846e-46c3-bc6c-8553178c086f)
+
+5. **Interactive Filters**  
+Easily explore by time period, country, or aircraft
+
+![Image](https://github.com/user-attachments/assets/6e0dea01-aa54-4785-8aa9-0914de23ffc9)
+
+## Interactive Dashboard Experience
+
+Here is the final dashboard, which you can also view on [Tableau](https://public.tableau.com/views/BritishAirwaysDashboard_17418998269380/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) to explore how all visualizations update dynamically with each filter selection.
+
+![Image](https://github.com/user-attachments/assets/b6fbbd76-05f3-49e1-9a7a-673238d31c2f)
+
+Try experimenting with:
+- Switching between different rating metrics
+- Filtering by specific years or aircraft types
+- Hovering over countries on the map for detailed scores
+
+## 🔑 Key Findings for Stakeholders
+
+### 1. Pandemic Impact (2020-2021)
+- All rating categories showed significant declines  
+- Likely driven by flight cancellations and COVID-19 restrictions  
+
+### 2. Priority Improvement Areas   
+Consistently low-performing categories:  
+- In-flight entertainment (1.4/5 avg)  
+- Food & beverages (2.4/5 avg)  
+- Value for money (2.8/5 avg)  
+
+### 3. Strong Overall Performance  
+- Maintained 4.2/5 average rating across 7 years
+- **Boeing 747-400**: Highest-rated aircraft (4.7/5)   
+- 78% of reviews gave 4+ stars overall  
+
+## ✅ Recommended Actions:  
+1. **Immediate Upgrades**  
+   - Modernize entertainment systems (content & hardware)  
+   - Partner with premium catering services  
+
+2. **Leverage Top Performers**  
+   - Increase 747-400 deployment on key business routes  
+   - Study & replicate its cabin service best practices   
+
+3. **Targeted Training**  
+   - Specialty training for food/beverage staff  
+
+
+
