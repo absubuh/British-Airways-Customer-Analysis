@@ -10,7 +10,7 @@ Explore the interactive version with filters for:
 - Aircraft types
 - Countries
 
-## Table of Contents
+## 📋 Table of Contents
 1. [Dashboard Access](#dashboard-access)  
 2. [Project Overview](#-overview)  
 3. [Data Exploration](#-exploring-the-data)  
