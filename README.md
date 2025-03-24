@@ -1,3 +1,4 @@
+<a id="dashboard-access"></a>
 # ✈️ British Airways Customer Reviews Analysis  
 ![Image](https://github.com/user-attachments/assets/10c337c6-432a-4f1e-a266-294d758be7db)
 
@@ -10,7 +11,7 @@ Explore the interactive version with filters for:
 - Countries
 
 ## Table of Contents
-1. [Dashboard Access](#-british-airways-customer-reviews-analysis)  
+1. [Dashboard Access](#dashboard-access)  
 2. [Project Overview](#-overview)  
 3. [Data Exploration](#-exploring-the-data)  
 4. [Dashboard Features](#-interactive-dashboard-features)  
