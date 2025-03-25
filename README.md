@@ -130,16 +130,17 @@ Consistently low-performing categories:
 
 ---
 
-### Business Recommendations:  
-1. **Immediate Upgrades**  
+### Business Recommendations:
+
+### 1. Immediate Upgrades  
 - Modernize entertainment systems (content & hardware)  
 - Partner with premium catering services  
 
-2. **Leverage Top Performers**  
+### 2. Leverage Top Performers  
 - Increase 747-400 deployment on key business routes  
 - Study & replicate its cabin service best practices   
 
-3. **Targeted Training**  
+### 3. Targeted Training 
 - Specialty training for food/beverage staff  
 
 
