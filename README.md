@@ -1,5 +1,5 @@
 <a id="dashboard-access"></a>
-# ✈️ British Airways Customer Reviews Analysis  
+# British Airways Customer Reviews Analysis  
 ![Image](https://github.com/user-attachments/assets/10c337c6-432a-4f1e-a266-294d758be7db)
 
 [![Tableau Dashboard](https://img.shields.io/badge/View_Interactive_Dashboard-Tableau_Public-blue?style=for-the-badge&logo=tableau)](https://public.tableau.com/views/BritishAirwaysDashboard_17418998269380/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -10,19 +10,19 @@ Explore the interactive version with filters for:
 - Aircraft types
 - Countries
 
-## 📋 Table of Contents
+## Table of Contents
 1. [Dashboard Access](#dashboard-access)  
-2. [Project Overview](#-overview)  
-3. [Data Exploration](#-exploring-the-data)  
-4. [Dashboard Features](#-interactive-dashboard-features)  
+2. [Project Overview](#overview)  
+3. [Data Exploration](#exploring-the-data)  
+4. [Dashboard Features](#interactive-dashboard-features)  
 5. [Final Dashboard](#interactive-dashboard-experience)  
-6. [Key Findings](#-key-findings-for-stakeholders)  
-7. [Recommendations](#-recommended-actions)
+6. [Key Findings](#key-findings-for-stakeholders)  
+7. [Recommendations](#recommended-actions)
 
-## 📌 Overview  
+## Overview  
 In this project, I analyzed **7 years of British Airways customer reviews (2016–2023)** to uncover trends in passenger satisfaction. Using Tableau, I built an **interactive dashboard** that highlights strengths, pain points, and opportunities for improvement—helping airline leaders make data-driven decisions.  
 
-## 🔍 Exploring the Data
+## Exploring the Data
 
 First, I dove into the customer reviews to understand what story the data could tell. Each row represented a unique traveler's experience, with detailed ratings across key flight aspects:
 
@@ -34,7 +34,7 @@ First, I dove into the customer reviews to understand what story the data could 
 - Value for money
 
 
-### 🔗 Connecting the Data
+### Connecting the Data
 To enable geographic insights, I joined the review data with country information in Tableau by matching the `Place` and `Country` fields. This created a powerful foundation for location-based analysis.
 
 ![Image](https://github.com/user-attachments/assets/857f5cd6-b119-49f5-b5d9-0df8d3a472ab)
@@ -51,7 +51,7 @@ I focused on aircraft with **50+ reviews** to ensure reliable results. Less comm
 
 ![Image](https://github.com/user-attachments/assets/ca56212e-fb55-4a37-ba99-d7d4870f7963)
 
-## 📊 Interactive Dashboard Features
+## Interactive Dashboard Features
 
 The dashboard dynamically updates all visualizations when users select different metrics from the "Pick a Metric" filter. For example, choosing "Food & Beverages" will update every chart to show relevant data for that category.
 
@@ -93,7 +93,7 @@ Try experimenting with:
 - Filtering by specific years or aircraft types
 - Hovering over countries on the map for detailed scores
 
-## 🔑 Key Findings for Stakeholders
+## Key Findings for Stakeholders
 
 ### 1. Pandemic Impact (2020-2021)
 - All rating categories showed significant declines  
@@ -110,7 +110,7 @@ Consistently low-performing categories:
 - **Boeing 747-400**: Highest-rated aircraft (4.7/5)   
 - 78% of reviews gave 4+ stars overall  
 
-## ✅ Recommended Actions:  
+## Recommended Actions:  
 1. **Immediate Upgrades**  
    - Modernize entertainment systems (content & hardware)  
    - Partner with premium catering services  
