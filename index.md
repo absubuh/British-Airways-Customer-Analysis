@@ -1,5 +1,4 @@
-<a id="dashboard-access"></a>
-# British Airways Customer Reviews Analysis  
+<a id="dashboard-access"></a> 
 ![Image](https://github.com/user-attachments/assets/10c337c6-432a-4f1e-a266-294d758be7db)
 
 [![Tableau Dashboard](https://img.shields.io/badge/View_Interactive_Dashboard-Tableau_Public-blue?style=for-the-badge&logo=tableau)](https://public.tableau.com/views/BritishAirwaysDashboard_17418998269380/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
