@@ -2,7 +2,7 @@
 
 Analyzed seven years of British Airways customer reviews (2016–2023) to identify trends in passenger satisfaction. Built an interactive Tableau dashboard with filters for metrics, time, aircraft, and countries to highlight strengths, pain points, and improvement opportunities.
 
-
+## Full Dashboard
 <a id="dashboard-access"></a> 
 ![Image](https://github.com/user-attachments/assets/10c337c6-432a-4f1e-a266-294d758be7db)
 
