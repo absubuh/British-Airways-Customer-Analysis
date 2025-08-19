@@ -1,9 +1,3 @@
-<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-
----
-title: British Airways Tableau Dashboard
----
-
 <a id="dashboard-access"></a>
 # British Airways Customer Reviews Analysis  
 ![Image](https://github.com/user-attachments/assets/10c337c6-432a-4f1e-a266-294d758be7db)
