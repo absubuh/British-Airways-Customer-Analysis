@@ -1,5 +1,5 @@
 title: British Airways Tableau Dashboard
 description: Tableau analysis and KPI dashboard by Abdullah Subuh
-theme: jekyll-theme-midnight   # dark, simple, easy to read
+theme: jekyll-theme-slate   # dark, simple, easy to read
 markdown: kramdown
 highlighter: rouge
