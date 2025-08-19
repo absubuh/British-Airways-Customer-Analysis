@@ -1,8 +1,8 @@
-title: British Airways Tableau Dashboard
-description: Tableau analysis and KPI dashboard by Abdullah Subuh
-theme: jekyll-theme-slate   # Base theme
+title: Project Portfolio
+description: Data analysis projects by Abdullah Subuh
+remote_theme: andrewbanchich/vscode-dark-plus-jekyll
+plugins:
+  - jekyll-remote-theme
 markdown: kramdown
 highlighter: rouge
 
-sass:
-  sass_dir: assets/css
